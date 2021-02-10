@@ -81,32 +81,11 @@ def adding_matz
         :languages => ["C"]
       }
     }
-programmer_hash_new =
 
-{
-      :yukihiro_matsumoto => {
-        :known_for => "Ruby",
-        :languages => ["LISP","C"]
-      },
-      
-      :grace_hopper => {
-        :known_for => "COBOL",
-        :languages => ["COBOL", "FORTRAN"]
-      },
-      :alan_kay => {
-        :known_for => "Object Orientation",
-        :languages => ["Smalltalk", "LISP"]
-      },
-      :dennis_ritchie => {
-        :known_for => "Unix",
-        :languages => ["C"]
-      }
-    }
-programmer_hash_new = programmer_hash
+programmer_hash[:yukihiro_matsumoto] = {}
 
+puts programmer_hash
 programmer_hash
-
-
 end
 
 def changing_alan
