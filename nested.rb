@@ -86,7 +86,7 @@ programmer_hash_new =
 {
       :yukihiro_matsumoto => {
         :known_for => "Ruby",
-        :languages => "LISP","C"
+        :languages => ["LISP","C"]
       },
       
       :grace_hopper => {
