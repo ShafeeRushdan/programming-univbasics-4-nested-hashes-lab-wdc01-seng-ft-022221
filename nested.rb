@@ -84,7 +84,7 @@ def adding_matz
 
 programmer_hash[:yukihiro_matsumoto] = {}
 programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
-programmer_hash[:yukihiro_matsumoto][:languages] = "Ruby"
+programmer_hash[:yukihiro_matsumoto][:languages] = ["Ruby"]
 
 puts programmer_hash
 programmer_hash
@@ -109,7 +109,9 @@ def changing_alan
         :languages => ["C"]
       }
     }
-
+[programmer_hash][alan_kay][programmer_hash] = "GUI"
+puts programmer_hash
+programmer_hash
 end
 
 def adding_to_dennis
